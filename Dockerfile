@@ -9,4 +9,5 @@ RUN gatsby build
 FROM gatsbyjs/gatsby
 COPY --from=build /app/public /pub
 
+
 EXPOSE 80
